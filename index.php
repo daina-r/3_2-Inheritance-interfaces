@@ -77,8 +77,8 @@ class Pen extends SuperClass implements HowMuch {
         echo "<br>";
     }
 }
-$firstPen = new Pen('Parker', 2, 'Голубой', 'Прозрачный', 'Да');
-$secondPen = new Pen('Обычная ручка', 1, 'Красный', 'Белый', 'Нет');
+$firstPen = new Pen('Parker', 2, 'Голубой', 'Прозрачный');
+$secondPen = new Pen('Обычная ручка', 1, 'Красный', 'Белый');
 class Duck extends SuperClass implements Noises {
     public $color;
     public $age;
